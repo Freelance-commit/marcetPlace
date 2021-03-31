@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html,
+body {
+    height: 100%;
+    // такий запис може бути стадартним:
+    position: relative;
+    overflow-x: hidden;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul, li{ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button{
+    outline: transparent;
+    border: none;
+    cursor: pointer;
+}
+div, h1, h2, h3,h4, h5, h6, p{
+    margin: 0;
+}
+body{
+    @include f400;
+    font-size: 16px;
+    line-height: 30px;
+    color: $text;
+    outline: transparent;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.btn{
+    background-color: $blue;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    line-height: 2.0;
+    border-radius: 100px;
+}
+btn,
+input,
+select{
+    outline: transparent;
+}
+
+#modal{
+    display: none;
+}
+

@@ -1,0 +1,28 @@
+$text: #555;
+$blue: #0674ec;
+$bg: #eef1f3;
+
+// $green: #8bc34a;
+// $gray: #f4f6f5;
+// $yellou: #fcb322;
+// $tomato: #ef6c00;
+
+@mixin f400 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+@mixin f500 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+@mixin f700 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;   
+}
+@mixin bg-i {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
